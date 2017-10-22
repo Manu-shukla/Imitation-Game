@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+		<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<nav class="nav nav-pills nav-fill">
+  <a class="nav-item nav-link" href="Animation.html">Video</a>
+  <a class="nav-item nav-link" href="Roll.html">Image Rolling</a>
+  <a class="nav-item nav-link" href="gall.html">Image Gallery</a>
+  <a class="nav-item nav-link disabled" href="mine.html">Minecraft</a>
+</nav><a-scene>
+  <a-assets>
+    <video  autoplay loop="true" src="https://www.youtube.com/watch?v=fJo5c4TCmKU"></video>
+  </a-assets>
+  <!-- Using the asset management system. -->
+  <a-video src="https://www.youtube.com/watch?v=fJo5c4TCmKU" width="16" height="9" position="0 0 -20"></a-video>
+  <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+  <a-video src="https://www.youtube.com/watch?v=l_JkXSuSNQA"></a-video>
+</a-scene>
+</body>
+</html>
